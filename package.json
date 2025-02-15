@@ -1,19 +1,16 @@
 {
-  "name": "backend-nodejs",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "node js",
-  "main": "server.js",
+  "description": "",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thangnguyen-max/NodeJS.git"
   },
-  "keywords": [
-    "node",
-    "js"
-  ],
   "author": "thang",
   "license": "ISC",
   "bugs": {
@@ -21,6 +18,11 @@
   },
   "homepage": "https://github.com/thangnguyen-max/NodeJS#readme",
   "dependencies": {
-    "express": "4.18.2"
+    "dotenv": "16.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.9"
   }
 }
